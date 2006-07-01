@@ -1,0 +1,26 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Thu Mar 22 22:44:23 2007           **
+;**                                                                **
+;** MakeCAB Version: (32) 1.00.603.4 (06/25/98)                     **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,Graphic Constructor 5.1.CAB
+[file list]
+1,0,Setup.Lst,3401
+1,0,setup.exe,139776
+1,1,Graphic Constructor 5.1.exe,73728
+1,1,Functions 3.1.dll,65536
+1,1,MSCOMCT2.OCX,647872
+1,1,COMDLG32.OCX,140488
+1,1,SETUP1.EXE,249856
+1,1,VB6STKIT.DLL,101888
+1,1,ST6UNST.EXE,73216
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Thu Mar 22 22:44:23 2007           **
+;**                                                                **
+;*** END ************************************************************
