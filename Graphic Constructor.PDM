@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=Standard Setup Package for Graphic Constructor
+Most Recent Deploy=Folder Deployment for Graphic Constructor
+
+
+[Package|Standard Setup Package for Graphic Constructor|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Package
+
+[Package|Standard Setup Package for Graphic Constructor|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package for Graphic Constructor|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package for Graphic Constructor|Files Found]
+
+[Package|Standard Setup Package for Graphic Constructor|Files Released]
+
+[Package|Standard Setup Package for Graphic Constructor|Missing Dependency Information]
+
+[Package|Standard Setup Package for Graphic Constructor|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package for Graphic Constructor|Files Added]
+
+[Package|Standard Setup Package for Graphic Constructor|Files Removed]
+e:\windows\system32\mscomctl.ocx=
+e:\windows\system32\msvbvm60.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package for Graphic Constructor|Files In Project]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Graphic Constructor 5.1.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+E:\Program Files\Softway\Graphic Constructor\Functions 3.1.dll=Yes
+E:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+E:\WINDOWS\system32\MSCOMCTL.OCX=No
+E:\WINDOWS\system32\COMDLG32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package for Graphic Constructor|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package for Graphic Constructor|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package for Graphic Constructor|Install Locations]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Graphic Constructor 5.1.exe=$(AppPath)
+E:\Program Files\Softway\Graphic Constructor\Functions 3.1.dll=$(AppPath)
+E:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package for Graphic Constructor|Configure Shared Files]
+Applicable=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Graphic Constructor 5.1.exe=No
+E:\Program Files\Softway\Graphic Constructor\Functions 3.1.dll=Yes
+
+[Package|Standard Setup Package for Graphic Constructor|Distribution]
+Type=single
+Size=
+Title=Graphic Constructor
+
+[Package|Standard Setup Package for Graphic Constructor|IconGroups]
+Group0=VitekSoft
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package for Graphic Constructor|VitekSoft]
+Icon1="Graphic Constructor 5.1.exe"
+Title1=Graphic Constructor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package for Graphic Constructor|Package]
+PackageFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Package
+ProjectFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель
+ServerSideCab=
+File1=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Package\setup.exe
+File2=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Package\Setup.Lst
+File3=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Package\Graphic Constructor 5.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment for Graphic Constructor|Root]
+Package=Standard Setup Package for Graphic Constructor
+Handler=PDWizard.FolderDplySubWiz
+Folder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Графопостроитель\Deploy
